@@ -2143,10 +2143,6 @@ ul.faq li > div h3 {
   font-size: 14px;
 }
 
-.post-tags {
-
-}
-
 .blog .blog-item .entry-meta {
   border-radius: 5px;
   overflow: hidden;
@@ -2411,10 +2407,6 @@ ul.sidebar-gallery {
   z-index: 99999;
 }
 
-.post_reply_comments h2 a{
- 
-}
-
 .message_heading {
   margin-bottom: 50px;
   margin-top: 60px;
@@ -2620,7 +2612,7 @@ p.txt-empresa{
 }
 #btn-cookies-no{
 	color: bloack;
-	background-color: #d81a1a;
+	background-color: #c7520a;
 }
 #btn-cookies-no, #btn-cookies-yes{
 	border-radius: 8px;
@@ -2629,6 +2621,10 @@ p.txt-empresa{
 
 #con-cookies-btns{
 	display: inline;
+}
+
+#politica-link{
+  color:#004cc6;
 }
 
 

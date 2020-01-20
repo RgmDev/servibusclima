@@ -136,37 +136,15 @@
 			Utilizamos cookies de terceros para mejorar nuestros servicios. Si continúa navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información en nuestra "Política de Cookies". 
 			<div id="con-cookies-btns">
 				<button id="btn-cookies-yes">Aceptar</button>
-				<button id="btn-cookies-no">Rechazar</button>
+				<button id="btn-cookies-no">Configuración de cookies</button>
 			</div>
 		</div>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
-		
-		<script language="javascript">
-			
-			$(document).ready(function(){
-			
-				if (!sessionStorage.cookiesResponse){
-					$("#con-cookies").fadeIn("slow");
-				}else{
-					$("#con-cookies").hide();
-				}
-			
-				$("#btn-cookies-yes").click(function(){
-					sessionStorage.cookiesResponse=true;
-					$("#con-cookies").fadeOut("slow");
-				});
-				
-				$("#btn-cookies-no").click(function(){
-					window.location="http://www.google.com";
-				});
-				
-			});	
-			
-		</script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/cookies.js"></script>
 		
 	</body>
 	
