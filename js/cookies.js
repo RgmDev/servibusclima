@@ -10,5 +10,5 @@ $("#btn-cookies-yes").click(function(){
 });
 
 $("#btn-cookies-no").click(function(){
-    window.location="aviso.html";
+    window.location="cookies.html";
 });

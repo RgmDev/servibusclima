@@ -2623,9 +2623,10 @@ p.txt-empresa{
 	display: inline;
 }
 
-#politica-link{
+#politica-link, .coockie-link{
   color:#004cc6;
 }
+
 
 
 /*************************
